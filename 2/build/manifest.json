@@ -1,0 +1,446 @@
+{
+  "_avatar-5-641be5a8.js": {
+    "assets": [
+      "images/avatar-1.jpg",
+      "images/avatar-2.jpg",
+      "images/avatar-3.jpg",
+      "images/avatar-4.jpg",
+      "images/avatar-5.jpg"
+    ],
+    "file": "assets/avatar-5-641be5a8.js"
+  },
+  "_create_user-e0d04e7a.js": {
+    "file": "assets/create_user-e0d04e7a.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-766558cd.js"
+    ]
+  },
+  "_index-766558cd.js": {
+    "css": [
+      "css/index.min.css"
+    ],
+    "file": "assets/index-766558cd.js",
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "_page-header-e847031b.js": {
+    "assets": [
+      "images/us.svg",
+      "images/spain.svg",
+      "images/germany.svg",
+      "images/logo-sm.png",
+      "images/logo-dark.png",
+      "images/logo-light.png",
+      "images/avatar-12.jpg",
+      "images/avatar-22.jpg",
+      "images/avatar-32.jpg",
+      "images/avatar-52.jpg",
+      "images/avatar-8.jpg",
+      "images/img-1.png",
+      "images/img-5.png",
+      "images/img-8.png",
+      "images/img-10.png",
+      "images/img-11.png",
+      "images/github.png",
+      "images/bitbucket.png",
+      "images/dribbble.png",
+      "images/dropbox.png",
+      "images/mail_chimp.png",
+      "images/slack.png",
+      "images/light-mode.png",
+      "images/dark-mode.png",
+      "images/brand-mode.png",
+      "images/material.png",
+      "images/creative.png",
+      "images/minimal.png",
+      "images/modern.png",
+      "images/interaction.png",
+      "images/img-1.jpg",
+      "images/img-2.jpg",
+      "images/img-3.jpg",
+      "images/img-4.jpg"
+    ],
+    "file": "assets/page-header-e847031b.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-766558cd.js"
+    ]
+  },
+  "index.css": {
+    "file": "css/index.min.css",
+    "src": "index.css"
+  },
+  "resources/fonts/Phosphor.eot": {
+    "file": "others/Phosphor.eot",
+    "src": "resources/fonts/Phosphor.eot"
+  },
+  "resources/fonts/Phosphor.svg": {
+    "file": "images/Phosphor.svg",
+    "src": "resources/fonts/Phosphor.svg"
+  },
+  "resources/fonts/Phosphor.ttf": {
+    "file": "others/Phosphor.ttf",
+    "src": "resources/fonts/Phosphor.ttf"
+  },
+  "resources/fonts/Phosphor.woff": {
+    "file": "others/Phosphor.woff",
+    "src": "resources/fonts/Phosphor.woff"
+  },
+  "resources/fonts/Phosphor.woff2": {
+    "file": "others/Phosphor.woff2",
+    "src": "resources/fonts/Phosphor.woff2"
+  },
+  "resources/fonts/bootstrap-icons.woff": {
+    "file": "others/bootstrap-icons.woff",
+    "src": "resources/fonts/bootstrap-icons.woff"
+  },
+  "resources/fonts/bootstrap-icons.woff2": {
+    "file": "others/bootstrap-icons.woff2",
+    "src": "resources/fonts/bootstrap-icons.woff2"
+  },
+  "resources/fonts/boxicons.eot": {
+    "file": "others/boxicons.eot",
+    "src": "resources/fonts/boxicons.eot"
+  },
+  "resources/fonts/boxicons.svg": {
+    "file": "images/boxicons.svg",
+    "src": "resources/fonts/boxicons.svg"
+  },
+  "resources/fonts/boxicons.ttf": {
+    "file": "others/boxicons.ttf",
+    "src": "resources/fonts/boxicons.ttf"
+  },
+  "resources/fonts/boxicons.woff": {
+    "file": "others/boxicons.woff",
+    "src": "resources/fonts/boxicons.woff"
+  },
+  "resources/fonts/boxicons.woff2": {
+    "file": "others/boxicons.woff2",
+    "src": "resources/fonts/boxicons.woff2"
+  },
+  "resources/fonts/materialdesignicons-webfont.eot": {
+    "file": "others/materialdesignicons-webfont.eot",
+    "src": "resources/fonts/materialdesignicons-webfont.eot"
+  },
+  "resources/fonts/materialdesignicons-webfont.ttf": {
+    "file": "others/materialdesignicons-webfont.ttf",
+    "src": "resources/fonts/materialdesignicons-webfont.ttf"
+  },
+  "resources/fonts/materialdesignicons-webfont.woff": {
+    "file": "others/materialdesignicons-webfont.woff",
+    "src": "resources/fonts/materialdesignicons-webfont.woff"
+  },
+  "resources/fonts/materialdesignicons-webfont.woff2": {
+    "file": "others/materialdesignicons-webfont.woff2",
+    "src": "resources/fonts/materialdesignicons-webfont.woff2"
+  },
+  "resources/fonts/remixicon.eot": {
+    "file": "others/remixicon.eot",
+    "src": "resources/fonts/remixicon.eot"
+  },
+  "resources/fonts/remixicon.svg": {
+    "file": "images/remixicon.svg",
+    "src": "resources/fonts/remixicon.svg"
+  },
+  "resources/fonts/remixicon.ttf": {
+    "file": "others/remixicon.ttf",
+    "src": "resources/fonts/remixicon.ttf"
+  },
+  "resources/fonts/remixicon.woff": {
+    "file": "others/remixicon.woff",
+    "src": "resources/fonts/remixicon.woff"
+  },
+  "resources/fonts/remixicon.woff2": {
+    "file": "others/remixicon.woff2",
+    "src": "resources/fonts/remixicon.woff2"
+  },
+  "resources/images/auth/email.png": {
+    "file": "images/email.png",
+    "src": "resources/images/auth/email.png"
+  },
+  "resources/images/brands/bitbucket.png": {
+    "file": "images/bitbucket.png",
+    "src": "resources/images/brands/bitbucket.png"
+  },
+  "resources/images/brands/dribbble.png": {
+    "file": "images/dribbble.png",
+    "src": "resources/images/brands/dribbble.png"
+  },
+  "resources/images/brands/dropbox.png": {
+    "file": "images/dropbox.png",
+    "src": "resources/images/brands/dropbox.png"
+  },
+  "resources/images/brands/github.png": {
+    "file": "images/github.png",
+    "src": "resources/images/brands/github.png"
+  },
+  "resources/images/brands/mail_chimp.png": {
+    "file": "images/mail_chimp.png",
+    "src": "resources/images/brands/mail_chimp.png"
+  },
+  "resources/images/brands/slack.png": {
+    "file": "images/slack.png",
+    "src": "resources/images/brands/slack.png"
+  },
+  "resources/images/custom-theme/brand-mode.png": {
+    "file": "images/brand-mode.png",
+    "src": "resources/images/custom-theme/brand-mode.png"
+  },
+  "resources/images/custom-theme/creative.png": {
+    "file": "images/creative.png",
+    "src": "resources/images/custom-theme/creative.png"
+  },
+  "resources/images/custom-theme/dark-mode.png": {
+    "file": "images/dark-mode.png",
+    "src": "resources/images/custom-theme/dark-mode.png"
+  },
+  "resources/images/custom-theme/interaction.png": {
+    "file": "images/interaction.png",
+    "src": "resources/images/custom-theme/interaction.png"
+  },
+  "resources/images/custom-theme/light-mode.png": {
+    "file": "images/light-mode.png",
+    "src": "resources/images/custom-theme/light-mode.png"
+  },
+  "resources/images/custom-theme/material.png": {
+    "file": "images/material.png",
+    "src": "resources/images/custom-theme/material.png"
+  },
+  "resources/images/custom-theme/minimal.png": {
+    "file": "images/minimal.png",
+    "src": "resources/images/custom-theme/minimal.png"
+  },
+  "resources/images/custom-theme/modern.png": {
+    "file": "images/modern.png",
+    "src": "resources/images/custom-theme/modern.png"
+  },
+  "resources/images/effect-pattern/pattern.png": {
+    "file": "images/pattern.png",
+    "src": "resources/images/effect-pattern/pattern.png"
+  },
+  "resources/images/flags/germany.svg": {
+    "file": "images/germany.svg",
+    "src": "resources/images/flags/germany.svg"
+  },
+  "resources/images/flags/spain.svg": {
+    "file": "images/spain.svg",
+    "src": "resources/images/flags/spain.svg"
+  },
+  "resources/images/flags/us.svg": {
+    "file": "images/us.svg",
+    "src": "resources/images/flags/us.svg"
+  },
+  "resources/images/logo-dark.png": {
+    "file": "images/logo-dark.png",
+    "src": "resources/images/logo-dark.png"
+  },
+  "resources/images/logo-light.png": {
+    "file": "images/logo-light.png",
+    "src": "resources/images/logo-light.png"
+  },
+  "resources/images/logo-sm.png": {
+    "file": "images/logo-sm.png",
+    "src": "resources/images/logo-sm.png"
+  },
+  "resources/images/modal-bg.png": {
+    "file": "images/modal-bg.png",
+    "src": "resources/images/modal-bg.png"
+  },
+  "resources/images/products/32/img-1.png": {
+    "file": "images/img-1.png",
+    "src": "resources/images/products/32/img-1.png"
+  },
+  "resources/images/products/32/img-10.png": {
+    "file": "images/img-10.png",
+    "src": "resources/images/products/32/img-10.png"
+  },
+  "resources/images/products/32/img-11.png": {
+    "file": "images/img-11.png",
+    "src": "resources/images/products/32/img-11.png"
+  },
+  "resources/images/products/32/img-5.png": {
+    "file": "images/img-5.png",
+    "src": "resources/images/products/32/img-5.png"
+  },
+  "resources/images/products/32/img-8.png": {
+    "file": "images/img-8.png",
+    "src": "resources/images/products/32/img-8.png"
+  },
+  "resources/images/sidebar/img-1.jpg": {
+    "file": "images/img-1.jpg",
+    "src": "resources/images/sidebar/img-1.jpg"
+  },
+  "resources/images/sidebar/img-2.jpg": {
+    "file": "images/img-2.jpg",
+    "src": "resources/images/sidebar/img-2.jpg"
+  },
+  "resources/images/sidebar/img-3.jpg": {
+    "file": "images/img-3.jpg",
+    "src": "resources/images/sidebar/img-3.jpg"
+  },
+  "resources/images/sidebar/img-4.jpg": {
+    "file": "images/img-4.jpg",
+    "src": "resources/images/sidebar/img-4.jpg"
+  },
+  "resources/images/users/32/avatar-1.jpg": {
+    "file": "images/avatar-12.jpg",
+    "src": "resources/images/users/32/avatar-1.jpg"
+  },
+  "resources/images/users/32/avatar-2.jpg": {
+    "file": "images/avatar-22.jpg",
+    "src": "resources/images/users/32/avatar-2.jpg"
+  },
+  "resources/images/users/32/avatar-3.jpg": {
+    "file": "images/avatar-32.jpg",
+    "src": "resources/images/users/32/avatar-3.jpg"
+  },
+  "resources/images/users/32/avatar-5.jpg": {
+    "file": "images/avatar-52.jpg",
+    "src": "resources/images/users/32/avatar-5.jpg"
+  },
+  "resources/images/users/32/avatar-8.jpg": {
+    "file": "images/avatar-8.jpg",
+    "src": "resources/images/users/32/avatar-8.jpg"
+  },
+  "resources/images/users/avatar-1.jpg": {
+    "file": "images/avatar-1.jpg",
+    "src": "resources/images/users/avatar-1.jpg"
+  },
+  "resources/images/users/avatar-2.jpg": {
+    "file": "images/avatar-2.jpg",
+    "src": "resources/images/users/avatar-2.jpg"
+  },
+  "resources/images/users/avatar-3.jpg": {
+    "file": "images/avatar-3.jpg",
+    "src": "resources/images/users/avatar-3.jpg"
+  },
+  "resources/images/users/avatar-4.jpg": {
+    "file": "images/avatar-4.jpg",
+    "src": "resources/images/users/avatar-4.jpg"
+  },
+  "resources/images/users/avatar-5.jpg": {
+    "file": "images/avatar-5.jpg",
+    "src": "resources/images/users/avatar-5.jpg"
+  },
+  "resources/js/app.css": {
+    "file": "css/app.min2.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "css/app.min2.css"
+    ],
+    "dynamicImports": [
+      "resources/js/views/account/login.vue",
+      "resources/js/views/account/register.vue",
+      "resources/js/views/account/forgot-password.vue",
+      "resources/js/views/account/reset-password.vue",
+      "resources/js/views/pages/starter.vue",
+      "resources/js/views/admin/roles.vue",
+      "resources/js/views/admin/users.vue",
+      "resources/js/views/account/index.vue"
+    ],
+    "file": "js/app2.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/views/account/forgot-password.vue": {
+    "assets": [
+      "images/email.png"
+    ],
+    "file": "assets/forgot-password-d05405e9.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-766558cd.js",
+      "_avatar-5-641be5a8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/account/forgot-password.vue"
+  },
+  "resources/js/views/account/index.vue": {
+    "file": "assets/index-e6e92b9c.js",
+    "imports": [
+      "_page-header-e847031b.js",
+      "resources/js/app.js",
+      "_create_user-e0d04e7a.js",
+      "_index-766558cd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/account/index.vue"
+  },
+  "resources/js/views/account/login.vue": {
+    "file": "assets/login-c8f9c87a.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-766558cd.js",
+      "_avatar-5-641be5a8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/account/login.vue"
+  },
+  "resources/js/views/account/register.vue": {
+    "file": "assets/register-370de074.js",
+    "imports": [
+      "resources/js/app.js",
+      "_index-766558cd.js",
+      "_avatar-5-641be5a8.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/account/register.vue"
+  },
+  "resources/js/views/account/reset-password.vue": {
+    "file": "assets/reset-password-0210d284.js",
+    "imports": [
+      "_avatar-5-641be5a8.js",
+      "resources/js/app.js",
+      "_index-766558cd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/account/reset-password.vue"
+  },
+  "resources/js/views/admin/roles.vue": {
+    "file": "assets/roles-f387380b.js",
+    "imports": [
+      "resources/js/app.js",
+      "_page-header-e847031b.js",
+      "_index-766558cd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/admin/roles.vue"
+  },
+  "resources/js/views/admin/users.vue": {
+    "file": "assets/users-5666b04a.js",
+    "imports": [
+      "_page-header-e847031b.js",
+      "resources/js/app.js",
+      "_create_user-e0d04e7a.js",
+      "_index-766558cd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/admin/users.vue"
+  },
+  "resources/js/views/pages/starter.css": {
+    "file": "css/starter.min.css",
+    "src": "resources/js/views/pages/starter.css"
+  },
+  "resources/js/views/pages/starter.vue": {
+    "css": [
+      "css/starter.min.css"
+    ],
+    "file": "assets/starter-8f6916c4.js",
+    "imports": [
+      "_page-header-e847031b.js",
+      "resources/js/app.js",
+      "_index-766558cd.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/views/pages/starter.vue"
+  },
+  "resources/scss/app.scss": {
+    "file": "css/app.min.css",
+    "isEntry": true,
+    "src": "resources/scss/app.scss"
+  }
+}

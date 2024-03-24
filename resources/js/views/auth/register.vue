@@ -2,9 +2,9 @@
 import {ref, onMounted, inject} from "vue";
 import layout from "@/layouts/layout_auth.vue";
 
-import {useLoginStore} from '@/stores/auth/login.js';
+import {registerStore} from '@/stores/auth/register.js';
 
-const useLogin = useLoginStore()
+const useRegister = registerStore()
 
 
 </script>
@@ -16,7 +16,7 @@ const useLogin = useLoginStore()
         <div class="content d-flex justify-content-center align-items-center">
 
             <!-- Registration form -->
-            <form class="login-form" action="index.html">
+            <form class="login-form">
                 <div class="card mb-0">
                     <div class="card-body">
                         <div class="text-center mb-3">
@@ -34,7 +34,7 @@ const useLogin = useLoginStore()
                         <div class="mb-3">
                             <label class="form-label">Adınız Soyadınız</label>
                             <div class="form-control-feedback form-control-feedback-start">
-                                <input type="text" class="form-control" placeholder="JohnDoe" v-model="useLogin.form.name" autocomplete="off">
+                                <input type="text" class="form-control" placeholder="JohnDoe" v-model="useRegister.form.name" autocomplete="off">
                                 <div class="form-control-feedback-icon">
                                     <i class="ph-user-circle text-muted"></i>
                                 </div>
@@ -55,26 +55,22 @@ const useLogin = useLoginStore()
                         <div class="mb-3">
                             <label class="form-label">Şifreniz</label>
                             <div class="form-control-feedback form-control-feedback-start">
-                                <input type="password" class="form-control" placeholder="•••••••••••" v-model="useLogin.form.password">
+                                <input type="password" class="form-control" placeholder="•••••••••••" v-model="useRegister.form.password">
                                 <div class="form-control-feedback-icon">
                                     <i class="ph-lock text-muted"></i>
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="mb-3">
                             <label class="form-label">Şifre Tekrarı</label>
                             <div class="form-control-feedback form-control-feedback-start">
-                                <input type="password" class="form-control" placeholder="•••••••••••" v-model="useLogin.form.password_re">
+                                <input type="password" class="form-control" placeholder="•••••••••••" v-model="useRegister.form.password_confirmation">
                                 <div class="form-control-feedback-icon">
                                     <i class="ph-lock text-muted"></i>
                                 </div>
                             </div>
                         </div>
-
-
-
 
                         <div class="text-center text-muted content-divider mb-3">
                             <span class="px-2">Additions</span>
@@ -87,7 +83,7 @@ const useLogin = useLoginStore()
                             </label>
                         </div>
 
-                        <button type="button" class="btn btn-teal w-100" @click="useLogin.registerUser()">Register</button>
+                        <button type="button" class="btn btn-teal w-100" @click="useRegister.registerUser()">Register</button>
                     </div>
                 </div>
             </form>

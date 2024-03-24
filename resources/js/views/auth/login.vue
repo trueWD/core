@@ -2,9 +2,8 @@
 import { ref, onMounted, inject } from "vue";
 import layout from "@/layouts/layout_auth.vue";
 
-import { useLoginStore } from '@/stores/auth/login.js';
-
-const useLogin = useLoginStore()
+import { loginStore } from '@/stores/auth/login.js';
+const useLogin = loginStore()
 
 
 </script>
@@ -68,7 +67,7 @@ const useLogin = useLoginStore()
                     </div>
 
                     <div class="mb-3">
-                        <a href="#" class="btn btn-light w-100">Kayıt Olun</a>
+                        <router-link to="/register" class="btn btn-light w-100">Kayıt Olun</router-link>
                     </div>
 
                     <span class="form-text text-center text-muted">By continuing, you're confirming that you've read our <a href="#">Terms &amp; Conditions</a> and <a href="#">Cookie Policy</a></span>

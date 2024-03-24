@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import { useLoginStore } from "@/stores/auth/login";
-import { appStore } from "@/stores/App";
+import { loginStore } from '@/stores/auth/login.js';
+import { appStore } from "@/stores/App.js";
 
 const routes = [
     // authentication routes
@@ -82,7 +82,8 @@ const router = createRouter({
 
 router.beforeEach(async (to, from, next) => {
     const useAppStore = appStore();
-    const loginStore = useLoginStore();
+    const useLogin = loginStore()
+
 
     if(to.name == 'Login'){
       console.log('Merhaba Login:', to);
@@ -97,7 +98,7 @@ router.beforeEach(async (to, from, next) => {
       } else {
         console.log('else in içinde');
         try {
-          const reseponse = await loginStore.getUserInfo(); // Kullanıcı bilgilerini almayı dene
+          const reseponse = await useLogin.getUserInfo(); // Kullanıcı bilgilerini almayı dene
           next(); // Başarılıysa sayfaya yönlendir
         } catch (error) {
           next('/login'); // Giriş sayfasına yönlendir

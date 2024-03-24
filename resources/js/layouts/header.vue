@@ -1,8 +1,8 @@
 <script setup>
 
-import { useLoginStore } from '@/stores/auth/login.js';
+import { loginStore } from '@/stores/auth/login.js';
 import { appStore } from '@/stores/App.js';
-const login = useLoginStore()
+const login = loginStore()
 const useAppStore = appStore()
 
 
