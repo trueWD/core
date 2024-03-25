@@ -1,6 +1,6 @@
 import {defineStore} from 'pinia'
 import {ref} from 'vue'
-import { appStore } from '@/stores/App';
+import { appStore } from '@/stores/App.js';
 import router from '@/routes/index.js';
 
 export const loginStore = defineStore('login',()=>{
@@ -133,7 +133,7 @@ export const loginStore = defineStore('login',()=>{
     const getUserInfo = async ()=> {
       let response = await newAxios.get('/api/v1/user');
       if(response.status == 200 && response.data){
-        store.user = response.data.data;
+        store.user = response.data;
       }
     }
 

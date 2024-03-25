@@ -9,13 +9,13 @@ export const usersStore = defineStore('users',()=>{
     const errors = ref({});
 
     const getUsersList = async() =>{
-        let res = await newAxios.get('/admin/users/list');
+        let res = await newAxios.get('/api/v1/admin/users/list');
         users.value = res.data;
     }
 
     const getUserInfo = async(id) =>{
         form.value = {};
-        let res = await newAxios.get('/admin/users/'+ id)
+        let res = await newAxios.get('/api/v1/admin/users/'+ id)
         form.value = res.data;
         getUserRoles();
     }
@@ -23,12 +23,12 @@ export const usersStore = defineStore('users',()=>{
     const user_roles = ref([]);
     const getUserRoles = async(id) =>{
         user_roles.value = [];
-        let res = await newAxios.post('/admin/users/user_roles',{id:form.value.id})
+        let res = await newAxios.post('/api/v1/admin/users/user_roles',{id:form.value.id})
         user_roles.value = res.data.roels_list;
     }
 
     const getStoreUser = async() =>{
-        await newAxios.post('/admin/users', form.value).then(res => {
+        await newAxios.post('/api/v1/admin/users', form.value).then(res => {
             if(res.data.type === 'error'){
                 toast.warning('Kullanıcı hatalıı', {
                     autoClose: 1000,
@@ -52,7 +52,7 @@ export const usersStore = defineStore('users',()=>{
     }
 
     const getUpdateUser = async() =>{
-        await newAxios.post('/admin/users/update', form.value).then(res => {
+        await newAxios.post('/api/v1/admin/users/update', form.value).then(res => {
             if(res.data.type === 'error'){
                 Swal.fire({
                     title: 'Error!',
@@ -80,7 +80,7 @@ export const usersStore = defineStore('users',()=>{
 
 
     const getAddOrRemove = async(user_id, role_name) =>{
-        let res = await newAxios.post('/admin/roles/add_or_remove', {user_id: user_id, role_name:role_name });
+        let res = await newAxios.post('/api/v1/admin/roles/add_or_remove', {user_id: user_id, role_name:role_name });
 
         if(res.data.type == 'error'){
             Swal.fire({

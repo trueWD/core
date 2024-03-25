@@ -95,7 +95,7 @@
 import Layout from "@/layouts/layout.vue";
 import { onMounted, ref } from "vue";
 import Service from '@/Utils/Service.js';
-import CreateUser from '@/views/admin/create_user.vue';
+import CreateUser from '@/modules/admin/create_user.vue';
 import { toast } from 'vue3-toastify';
 import { appStore } from "@/stores/App";
 

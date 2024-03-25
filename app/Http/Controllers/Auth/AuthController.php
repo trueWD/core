@@ -52,6 +52,8 @@ class AuthController extends Controller
         }
 
         $user = auth()->user();
+        $user->getFirstMedia();
+        $user->impersonated_by = session()->get('impersonated_by');
         $token = $user->createToken('token')->plainTextToken;
 
         return response([

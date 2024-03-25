@@ -9,23 +9,23 @@ const routes = [
         path: '/login',
         name: 'Login',
         meta: { title: 'Login' },
-        component: () => import('../views/auth/login.vue')
+        component: () => import('@/modules/auth/login.vue')
     },
     {
         path: '/register',
         name: 'register',
         meta: { title: 'Register' },
-        component: () => import('@/views/auth/register.vue')
+        component: () => import('@/modules/auth/register.vue')
     },
     {
         path: '/forget-password',
         meta: { title: 'Forget Password' },
-        component: () => import('../views/account/forgot-password.vue')
+        component: () => import('@/modules/account/forgot-password.vue')
     },
     {
         path: '/reset-password/:token',
         meta: { title: 'Reset Password' },
-        component: () => import('../views/account/reset-password.vue')
+        component: () => import('@/modules/account/reset-password.vue')
     },
 
 
@@ -40,25 +40,25 @@ const routes = [
         path: '/',
         name: "Dashboard",
         meta: { title: 'Dashboard', authRequired: true },
-        component: () => import("@/views/dashboard/index.vue"),
+        component: () => import("@/modules/dashboard/index.vue"),
     },
     {
         path: "/admin/roles",
         name: "Roles",
         meta: { title: "Roles", authRequired: true },
-        component: () => import("@/views/admin/roles.vue"),
+        component: () => import("@/modules/admin/roles.vue"),
     },
     {
         path: "/admin/users",
         name: "Users",
         meta: { title: "Users", authRequired: true },
-        component: () => import("@/views/admin/users.vue"),
+        component: () => import("@/modules/admin/users.vue"),
     },
     {
         path: "/account/myacount",
         name: "MyAcount",
         meta: { title: "Users", authRequired: true },
-        component: () => import("@/views/account/index.vue"),
+        component: () => import("@/modules/account/index.vue"),
     }
 
 

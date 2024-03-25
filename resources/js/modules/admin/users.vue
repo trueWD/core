@@ -4,11 +4,11 @@
 import { ref, onMounted } from "vue";
 import Layout from "@/layouts/layout.vue";
 import { usersStore } from '@/stores/admin/usersStore.js';
-import { useLoginStore } from '@/stores/auth/login.js';
+import { loginStore } from '@/stores/auth/login.js';
 import { appStore } from '@/stores/App.js';
-import CreateUser from '@/views/admin/create_user.vue';
+import CreateUser from '@/modules/admin/create_user.vue';
 const useUsersStore = usersStore()
-const login = useLoginStore()
+const login = loginStore()
 const user = appStore()
 
 onMounted(() => {

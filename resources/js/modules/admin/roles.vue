@@ -4,7 +4,7 @@ import Layout from "@/layouts/layout.vue";
 import {rolesStore} from '@/stores/admin/rolesStore.js';
 import {useLoginStore} from '@/stores/auth/login.js';
 import {appStore} from '@/stores/App.js';
-import CreateRole from '@/views/admin/create_role.vue';
+import CreateRole from '@/modules/admin/create_role.vue';
 
 const useRolesStore = rolesStore()
 const login = useLoginStore()
